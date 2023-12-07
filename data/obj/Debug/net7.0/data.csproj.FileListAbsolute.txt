@@ -1,0 +1,14 @@
+/Users/gokhanmerden/Public/Halic/blog/data/obj/Debug/net7.0/data.csproj.AssemblyReference.cache
+/Users/gokhanmerden/Public/Halic/blog/data/obj/Debug/net7.0/data.GeneratedMSBuildEditorConfig.editorconfig
+/Users/gokhanmerden/Public/Halic/blog/data/obj/Debug/net7.0/data.AssemblyInfoInputs.cache
+/Users/gokhanmerden/Public/Halic/blog/data/obj/Debug/net7.0/data.AssemblyInfo.cs
+/Users/gokhanmerden/Public/Halic/blog/data/obj/Debug/net7.0/data.csproj.CoreCompileInputs.cache
+/Users/gokhanmerden/Public/Halic/blog/data/bin/Debug/net7.0/data.deps.json
+/Users/gokhanmerden/Public/Halic/blog/data/bin/Debug/net7.0/data.dll
+/Users/gokhanmerden/Public/Halic/blog/data/bin/Debug/net7.0/data.pdb
+/Users/gokhanmerden/Public/Halic/blog/data/obj/Debug/net7.0/data.dll
+/Users/gokhanmerden/Public/Halic/blog/data/obj/Debug/net7.0/refint/data.dll
+/Users/gokhanmerden/Public/Halic/blog/data/obj/Debug/net7.0/data.pdb
+/Users/gokhanmerden/Public/Halic/blog/data/obj/Debug/net7.0/ref/data.dll
+/Users/gokhanmerden/Public/Halic/blog/data/bin/Debug/net7.0/data.runtimeconfig.json
+/Users/gokhanmerden/Public/Halic/blog/data/obj/Debug/net7.0/data.genruntimeconfig.cache

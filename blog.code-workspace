@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "console"
+		},
+		{
+			"path": "data"
+		},
+		{
+			"path": "services"
+		}
+	],
+	"settings": {}
+}
