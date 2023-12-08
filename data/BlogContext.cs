@@ -10,8 +10,6 @@ namespace data {
     {
         public BlogContext()
         {
-            //var folder = Environment.SpecialFolder.;
-            //var path = Environment.GetFolderPath(folder);
             DbPath = System.IO.Path.Join("/Users/gokhanmerden/Public/Halic/blog", "blogdb.db");
         }
         public string DbPath { get; }
