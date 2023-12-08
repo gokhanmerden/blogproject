@@ -1,0 +1,5 @@
+/Users/gokhanmerden/Public/Halic/blog/data/obj/Debug/net7.0/data.csproj.AssemblyReference.cache
+/Users/gokhanmerden/Public/Halic/blog/data/obj/Debug/net7.0/data.GeneratedMSBuildEditorConfig.editorconfig
+/Users/gokhanmerden/Public/Halic/blog/data/obj/Debug/net7.0/data.AssemblyInfoInputs.cache
+/Users/gokhanmerden/Public/Halic/blog/data/obj/Debug/net7.0/data.AssemblyInfo.cs
+/Users/gokhanmerden/Public/Halic/blog/data/obj/Debug/net7.0/data.csproj.CoreCompileInputs.cache
