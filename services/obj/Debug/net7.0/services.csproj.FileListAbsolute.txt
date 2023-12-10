@@ -1,0 +1,12 @@
+/Users/gokhanmerden/Public/Halic/blog/services/bin/Debug/net7.0/services.deps.json
+/Users/gokhanmerden/Public/Halic/blog/services/bin/Debug/net7.0/services.dll
+/Users/gokhanmerden/Public/Halic/blog/services/bin/Debug/net7.0/services.pdb
+/Users/gokhanmerden/Public/Halic/blog/services/obj/Debug/net7.0/services.csproj.AssemblyReference.cache
+/Users/gokhanmerden/Public/Halic/blog/services/obj/Debug/net7.0/services.GeneratedMSBuildEditorConfig.editorconfig
+/Users/gokhanmerden/Public/Halic/blog/services/obj/Debug/net7.0/services.AssemblyInfoInputs.cache
+/Users/gokhanmerden/Public/Halic/blog/services/obj/Debug/net7.0/services.AssemblyInfo.cs
+/Users/gokhanmerden/Public/Halic/blog/services/obj/Debug/net7.0/services.csproj.CoreCompileInputs.cache
+/Users/gokhanmerden/Public/Halic/blog/services/obj/Debug/net7.0/services.dll
+/Users/gokhanmerden/Public/Halic/blog/services/obj/Debug/net7.0/refint/services.dll
+/Users/gokhanmerden/Public/Halic/blog/services/obj/Debug/net7.0/services.pdb
+/Users/gokhanmerden/Public/Halic/blog/services/obj/Debug/net7.0/ref/services.dll
