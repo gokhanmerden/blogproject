@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "hGniGcaMFly+J0nJ4pRjGCKNMjv7T00LYJtToYP8/9kRTXJXCY2S9+7Df50ZUc9VLJStKUsf5uLXrSTnE0zw4g==",
+  "dgSpecHash": "kHXEbxd3KJm2jNxHhXIVidgWTklK+LVj78OS/ywYm2nP4h5LM2jEyhRDMoRDNwg7Q9XrDkJ6HJM1fJctpxD0cw==",
   "success": true,
   "projectFilePath": "/Users/gokhanmerden/Public/Halic/blog/console/console.csproj",
   "expectedPackageFiles": [
+    "/Users/gokhanmerden/.nuget/packages/mediatr/12.2.0/mediatr.12.2.0.nupkg.sha512",
+    "/Users/gokhanmerden/.nuget/packages/mediatr.contracts/2.0.1/mediatr.contracts.2.0.1.nupkg.sha512",
     "/Users/gokhanmerden/.nuget/packages/microsoft.data.sqlite.core/7.0.14/microsoft.data.sqlite.core.7.0.14.nupkg.sha512",
     "/Users/gokhanmerden/.nuget/packages/microsoft.entityframeworkcore/7.0.14/microsoft.entityframeworkcore.7.0.14.nupkg.sha512",
     "/Users/gokhanmerden/.nuget/packages/microsoft.entityframeworkcore.abstractions/7.0.14/microsoft.entityframeworkcore.abstractions.7.0.14.nupkg.sha512",
@@ -15,7 +17,7 @@
     "/Users/gokhanmerden/.nuget/packages/microsoft.extensions.caching.memory/7.0.0/microsoft.extensions.caching.memory.7.0.0.nupkg.sha512",
     "/Users/gokhanmerden/.nuget/packages/microsoft.extensions.configuration.abstractions/7.0.0/microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
     "/Users/gokhanmerden/.nuget/packages/microsoft.extensions.dependencyinjection/7.0.0/microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
-    "/Users/gokhanmerden/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/7.0.0/microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
+    "/Users/gokhanmerden/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.0/microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
     "/Users/gokhanmerden/.nuget/packages/microsoft.extensions.dependencymodel/7.0.0/microsoft.extensions.dependencymodel.7.0.0.nupkg.sha512",
     "/Users/gokhanmerden/.nuget/packages/microsoft.extensions.logging/7.0.0/microsoft.extensions.logging.7.0.0.nupkg.sha512",
     "/Users/gokhanmerden/.nuget/packages/microsoft.extensions.logging.abstractions/7.0.0/microsoft.extensions.logging.abstractions.7.0.0.nupkg.sha512",

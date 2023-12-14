@@ -156,7 +156,11 @@
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "/Users/gokhanmerden/Public/Halic/blog/data/data.csproj": {
+                "projectPath": "/Users/gokhanmerden/Public/Halic/blog/data/data.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -168,6 +172,12 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.2.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
