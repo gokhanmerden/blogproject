@@ -1,4 +1,6 @@
 
+using System.Text.Json.Serialization;
+using Microsoft.AspNetCore.Http.Json;
 using webapi;
 using webapi.Blog;
 
@@ -8,7 +10,17 @@ var builder = WebApplication.CreateBuilder(args);
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-
+builder.Services.ConfigureHttpJsonOptions( options =>
+{
+    options.SerializerOptions.ReferenceHandler = ReferenceHandler.IgnoreCycles;
+    options.SerializerOptions.WriteIndented = true;
+});
+/*builder.Services.Configure<JsonOptions>(options =>
+{
+    options.SerializerOptions.ReferenceHandler = ReferenceHandler.IgnoreCycles;
+    options.SerializerOptions.WriteIndented = true;
+    //... other options you might want to set.
+});*/
 Startup.ConfigureServices(builder.Services);
 var app = builder.Build();
 
@@ -41,6 +53,7 @@ app.MapGet("/weatherforecast", () =>
 .WithName("GetWeatherForecast")
 .WithOpenApi();
 BlogMap.AddMap(app);
+KredilerMap.AddMap(app);
 app.Run();
 
 record WeatherForecast(DateOnly Date, int TemperatureC, string? Summary)

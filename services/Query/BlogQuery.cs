@@ -18,7 +18,9 @@ namespace services.Query
             async Task<Blog> IRequestHandler<BlogQuery, Blog>.Handle(BlogQuery request, CancellationToken cancellationToken)
             {
                 var uow = new BlogUnitOfWork();
-                var blog = await uow.blogRepository.GetQuery().Where(p=> p.id == request.id).FirstOrDefaultAsync();
+                var blog = await uow.blogRepository.GetQuery()
+                .Include(i=> i.Posts)
+                .Where(w=> w.id == request.id).FirstOrDefaultAsync();
                 return blog;
             }
         }

@@ -15,6 +15,15 @@ namespace data.uows
         }
         private Repository<Blog> _blogRepository;
         private Repository<Post> _postRepository;
+        private Repository<Krediler> _kredilerRepository;
+        public Repository<Krediler> kredilerRepository {
+            get {
+                if (_kredilerRepository == null) {
+                    _kredilerRepository = new Repository<Krediler>(_context);
+                }
+                return _kredilerRepository;
+            }
+        }
         public Repository<Blog> blogRepository {
             get {
                 if (_blogRepository == null) {
@@ -31,5 +40,6 @@ namespace data.uows
                 return _postRepository;
             }
         }
+
     }
 }
