@@ -11,6 +11,7 @@ public class UnitTest1
         var kredilerQuery = new KredilerQuery();
         var datas =  await new KredilerQuery.Handler().Handle(kredilerQuery,CancellationToken.None);
         Assert.True( datas != null);
+        
         Assert.Collection<Krediler>(datas,e =>
         {
             Assert.Contains(e.name,"İyi ki Tanışmışız, dedirten kredi");
