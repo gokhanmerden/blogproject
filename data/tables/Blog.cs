@@ -11,6 +11,7 @@ namespace data.tables
         public Blog() {
             Posts = new List<Post>();
         }
+        private int _id;
         [Key]
         public int id { get; set; }
         public string Url { get; set; }
